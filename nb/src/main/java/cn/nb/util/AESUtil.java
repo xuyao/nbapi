@@ -11,12 +11,6 @@ public class AESUtil {
 
 	private static final String KEY_PWD = "imc_good";
 	
-	/**
-	 * 加密
-	 * @param content 需要加密的内容
-	 * @param password 加密密码
-	 * @return
-	 */
 	public static byte[] encrypt(String content, String password) {
 		try {
 			KeyGenerator kgen = KeyGenerator.getInstance("AES");
